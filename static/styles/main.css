@@ -1,0 +1,10 @@
+.container-fluid .flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container-fluid .flex-container .card-columns .card {
+  height: 300px;
+}
+/*# sourceMappingURL=main.css.map */

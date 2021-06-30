@@ -1,0 +1,28 @@
+footer {
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.list-group-item.active {
+  background-color: #17a2b8;
+  border-color: #17a2b8;
+}
+
+a:-webkit-any-link {
+  text-decoration: none;
+  color: #17a2b8;
+}
+
+a:-moz-any-link {
+  text-decoration: none;
+  color: #17a2b8;
+}
+
+a:any-link {
+  text-decoration: none;
+  color: #17a2b8;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,58 @@
+{% extends 'base.html' %}
+
+{% block title %}
+  Mew a python dashboard
+{% endblock %}
+
+{% block head %}
+<link rel="stylesheet" href="{{ url_for('static',filename='styles/main.css') }}">
+{% endblock %}
+
+{% block content %}
+<section class="container-fluid">
+    <div class="flex-container mt-2">
+        <aside class="sidebar d-none d-sm-block">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item active"><a herf="#">Dashboad</a></li>
+                <li class="list-group-item"><a href="#">Vendors</a></li>
+                <li class="list-group-item"><a href="#">Products</a></li>
+                <li class="list-group-item"><a href="#">Orders</a></li>
+            </ul>
+        </aside>
+        <main class="main-content ml-3">
+            <div class="card-columns">
+                <div class="card bg-primary">
+                    <div class="card-body text-center">
+                        <p class="card-text">Some text inside the first card</p>
+                    </div>
+                </div>
+                <div class="card bg-warning">
+                    <div class="card-body text-center">
+                        <p class="card-text">Some text inside the second card</p>
+                    </div>
+                </div>
+                <div class="card bg-success">
+                    <div class="card-body text-center">
+                        <p class="card-text">Some text inside the third card</p>
+                    </div>
+                </div>
+                <div class="card bg-danger">
+                    <div class="card-body text-center">
+                        <p class="card-text">Some text inside the fourth card</p>
+                    </div>
+                </div>
+                <div class="card bg-light">
+                    <div class="card-body text-center">
+                        <p class="card-text">Some text inside the fifth card</p>
+                    </div>
+                </div>
+                <div class="card bg-info">
+                    <div class="card-body text-center">
+                        <p class="card-text">Some text inside the sixth card</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</section>
+{% endblock %}

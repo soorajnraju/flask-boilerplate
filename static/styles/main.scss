@@ -1,0 +1,10 @@
+.container-fluid{
+    .flex-container{
+        display: flex;
+        .card-columns{
+            .card{
+                height: 300px;
+            }
+        }
+    }
+}
